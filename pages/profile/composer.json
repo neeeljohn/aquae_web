@@ -1,0 +1,6 @@
+{
+    "require": {
+        "nexmo/client": "^1.8",
+        "pusher/pusher-php-server": "^4.0"
+    }
+}

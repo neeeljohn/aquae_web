@@ -1,0 +1,28 @@
+.profile-pic {
+	border-radius: 50%;
+	
+
+}
+
+.my-profile {
+	display: flex;
+	flex-direction: column;
+}
+.profile-pic-container {   
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+}
+
+.profile-pic-container span {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.profile-container {    
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+}

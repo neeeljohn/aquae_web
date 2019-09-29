@@ -1,0 +1,24 @@
+{
+  "name": "jonthornton/jquery-timepicker",
+  "description":
+    "A javascript timepicker plugin for jQuery inspired by Google Calendar.",
+  "type": "component",
+  "homepage": "http://jonthornton.github.io/jquery-timepicker/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jon Thornton"
+    }
+  ],
+  "require": {
+    "robloach/component-installer": "*",
+    "components/jquery": "*",
+    "pusher/pusher-php-server": "^4.0"
+  },
+  "extra": {
+    "component": {
+      "scripts": ["jquery.timepicker.js"],
+      "files": ["jquery.timepicker.min.js", "jquery.timepicker.css"]
+    }
+  }
+}
